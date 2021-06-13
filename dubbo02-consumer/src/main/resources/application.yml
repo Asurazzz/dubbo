@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: DemoConsumer
+
+dubbo:
+  registry:
+    address: zookeeper://192.168.195.132:2181
