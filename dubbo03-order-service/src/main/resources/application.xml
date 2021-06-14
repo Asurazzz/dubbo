@@ -6,8 +6,8 @@
 
     <dubbo:application name="order-service"/>
 
-    <dubbo:registry address="N/A"/>
-    
-    <dubbo:reference interface="com.ymj.dubbo03_pay_api.service.IPayService" id="payService1"
-     url="dubbo://192.168.195.1:20880/com.ymj.dubbo03_pay_api.service.IPayService"/>
+<!--    <dubbo:registry address="N/A"/>-->
+
+    <dubbo:registry address="zookeeper://192.168.195.132:2181"/>
+    <dubbo:reference interface="com.ymj.dubbo03_pay_api.service.IPayService" id="payService1"/>
 </beans>
