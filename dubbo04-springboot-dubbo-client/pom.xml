@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ymj</groupId>
-    <artifactId>dubbo02-provider</artifactId>
+    <artifactId>dubbo04-springboot-dubbo-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dubbo02-provider</name>
+    <name>dubbo04-springboot-dubbo-client</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -61,6 +61,12 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+
+        <dependency>
+            <groupId>com.ymj</groupId>
+            <artifactId>dubbo04-springboot-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

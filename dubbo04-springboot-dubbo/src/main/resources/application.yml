@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: springboot-dubbo
+dubbo:
+  scan:
+    base-packages: com.ymj.springboot
+
+  registry:
+    address: zookeeper://192.168.195.132:2181
+
