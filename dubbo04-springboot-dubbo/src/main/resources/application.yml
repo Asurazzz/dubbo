@@ -6,6 +6,10 @@ dubbo:
   scan:
     base-packages: com.ymj.springboot
 
+#  protocol:
+#    name: myprotocol
+#    host: 20880
+
   registry:
     address: zookeeper://192.168.195.132:2181
 
